@@ -2,3 +2,20 @@ venv/
 __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
+
+# Lean project ignores (QC_MeanReversion)
+workspace/QC_MeanReversion/data/
+workspace/QC_MeanReversion/backtests/
+workspace/QC_MeanReversion/storage/
+
+# Python artifacts
+__pycache__/
+*.pyc
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Virtual environment
+venv/
